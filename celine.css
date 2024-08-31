@@ -1,0 +1,101 @@
+#celineshop{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-weight: 900;
+}
+#shopbutton{
+    position: absolute;
+    top: 68%;
+    left: 13%;
+    padding: 10px;
+    font-weight: 700;
+    font-size: large;
+}
+.hero-section img:hover{
+    background-color: aquamarine;
+    border-radius: 5px;
+
+}
+.heading{
+    color: rgb(9, 6, 1);
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 100px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 35px;
+    justify-content: flex-start;
+    margin: 100px auto;
+}
+.product-card{
+    background-color: burlywood;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px cadetblue;
+    overflow: hidden;
+    transition: transform 0.4s,box-shadow 4s;
+    flex: 1 1 500px;
+    max-width: 700px;
+}
+.product-card:hover{
+    transform: translateY(-20px);
+    border: 10px skyblue;
+}
+.product-card img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.product-info{
+    padding: 15px;
+    flex: 1;
+}
+.product-info h4{
+    font-size: x-large;
+}
+.product-info p{
+    font-size: 30;
+    color: aquamarine;
+    margin-bottom: 10px;
+}
+.product-info button{
+    padding: 10px;
+    background-color: cadetblue;
+    color: chocolate;
+    border:none ;
+
+}
+#LouisVuittion{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-weight: 900;
+}
+#Dior{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-weight: 900;
+}
+#Laptop{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-weight: 900;
+}
+#Samsung{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-weight: 900;
+}
+#Bluetooth{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-weight: 900;
+}
